@@ -7,7 +7,7 @@ function Form() {
       event.target.reset();  // reset the form
     };
     return (
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form" >
         <label htmlFor="todo">
           <input
             type="text"
